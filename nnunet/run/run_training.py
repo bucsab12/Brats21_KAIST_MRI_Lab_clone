@@ -197,3 +197,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# nnUNet_train 3d_fullres nnUNetTrainerV2BraTSRegions_DA4_BN_BD_largeUnet_Groupnorm <TASK_ID> <FOLD> --npz

@@ -164,6 +164,7 @@ def main():
             exp_planner.plan_experiment()
             if not dont_run_preprocessing:  # double negative, yooo
                 exp_planner.run_preprocessing(threads)
+    print('Done Pre Processing for nn-unet')
 
 
 if __name__ == "__main__":
